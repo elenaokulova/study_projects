@@ -1,4 +1,4 @@
-# python-flask-docker
+# early_biomarkers_of_parkinson's_disease
 Итоговый проект курса "Машинное обучение в бизнесе"
 Окулова Елена
 "Early Biomarkers of Parkinson's Disease"
