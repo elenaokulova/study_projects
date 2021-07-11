@@ -6,7 +6,9 @@
 Стек:
 
 ML: sklearn, pandas, numpy
+
 API: flask
+
 Данные: с kaggle - https://www.kaggle.com/ruslankl/early-biomarkers-of-parkinsons-disease
 
 Задача: Предсказать вероятность нейродегенерации на основе речевых особенностей. Бинарная классификация. Для сбора данных используются 2 речевых теста.
@@ -14,31 +16,31 @@ API: flask
 Используемые признаки:
 
 Age  (years)
-Gender            
-Entropy  of  speech  timing  (-)
-Rate  of  speech  timing  (-/min)
-Acceleration  of  speech  timing  (-/min2)
-Duration  of  pause  intervals  (ms)
-Duration  of  voiced  intervals  (ms)
-Gaping  in-between  voiced  intervals  (-/min)
-Duration  of  unvoiced  stops  (ms)
-Decay  of  unvoiced  fricatives  (‰/min)
-Relative  loudness  of  respiration  (dB)
-Pause  intervals  per  respiration  (-)
-Rate  of  speech  respiration  (-/min)
-Latency  of  respiratory  exchange  (ms)
-Entropy  of  speech  timing  (-) .1
-Rate  of  speech  timing  (-/min) .1
-Acceleration  of  speech  timing  (-/min2) .1
-Duration  of  pause  intervals  (ms) .1
-Duration  of  voiced  intervals  (ms) .1
-Gaping  in-between  voiced  Intervals  (-/min)
-Duration  of  unvoiced  stops  (ms) .1
-Decay  of  unvoiced  fricatives  (‰/min) .1
-Relative  loudness  of  respiration  (dB) .1
-Pause  intervals  per  respiration  (-) .1
-Rate  of  speech  respiration  (-/min) .1
-Latency  of  respiratory  exchange  (ms) .1
+-Gender            
+-Entropy  of  speech  timing  (-)
+-Rate  of  speech  timing  (-/min)
+-Acceleration  of  speech  timing  (-/min2)
+-Duration  of  pause  intervals  (ms)
+-Duration  of  voiced  intervals  (ms)
+-Gaping  in-between  voiced  intervals  (-/min)
+-Duration  of  unvoiced  stops  (ms)
+-Decay  of  unvoiced  fricatives  (‰/min)
+-Relative  loudness  of  respiration  (dB)
+-Pause  intervals  per  respiration  (-)
+-Rate  of  speech  respiration  (-/min)
+-Latency  of  respiratory  exchange  (ms)
+-Entropy  of  speech  timing  (-) .1
+-Rate  of  speech  timing  (-/min) .1
+-Acceleration  of  speech  timing  (-/min2) .1
+-Duration  of  pause  intervals  (ms) .1
+-Duration  of  voiced  intervals  (ms) .1
+-Gaping  in-between  voiced  Intervals  (-/min)
+-Duration  of  unvoiced  stops  (ms) .1
+-Decay  of  unvoiced  fricatives  (‰/min) .1
+-Relative  loudness  of  respiration  (dB) .1
+-Pause  intervals  per  respiration  (-) .1
+-Rate  of  speech  respiration  (-/min) .1
+-Latency  of  respiratory  exchange  (ms) .1
 
 Преобразования признаков: StandardScaler
 
@@ -46,9 +48,9 @@ Latency  of  respiratory  exchange  (ms) .1
 
 ### Клонируем репозиторий и создаем образ
 ```
-$ git clone https://github.com/elenaokulova/study_projects/tree/
-$ cd 
-$ docker build -t 
+$ git clone https://github.com/elenaokulova/study_projects/tree/early_biomarkers_of_parkinson's_disease
+$ cd early_biomarkers_of_parkinson's_disease
+$ docker build -t elenaokulova/study_projects/tree/early_biomarkers_of_parkinson's_disease/
 ```
 
 ### Запускаем контейнер
