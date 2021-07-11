@@ -35,8 +35,8 @@ def load_model(model_path):
 
 	print(model)
 
-#modelpath = "/app/app/models/logreg_pipeline.dill"
-modelpath = "model.pkl"
+modelpath = "/app/app/models/model.pkl"
+#modelpath = "model.pkl"
 load_model(modelpath)
 
 @app.route("/", methods=["GET"])
